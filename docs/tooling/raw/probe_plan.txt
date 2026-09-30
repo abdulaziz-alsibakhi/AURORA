@@ -1,0 +1,24 @@
+AURORA OPM utility probe plan
+
+Pinned image:
+openporousmedia/opmreleases@sha256:18c497f6a918c160cd290081d4163abf6e2c349797e18e3b5669c9095044adff
+
+Utilities:
+flow
+summary
+compareECL
+convertECL
+opmhash
+opmi
+opmpack
+
+Informational probes:
+NO_ARGUMENTS
+-h
+--help
+--version
+
+Important:
+A non-zero status is recorded, not automatically interpreted as a utility failure.
+Some OPM utilities use nonstandard command-line interfaces.
+No reservoir simulation is executed by this probe.

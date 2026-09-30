@@ -1,0 +1,2 @@
+compareECL: invalid option -- '-'
+Unknown option.

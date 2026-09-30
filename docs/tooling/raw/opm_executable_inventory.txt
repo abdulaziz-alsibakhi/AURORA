@@ -1,0 +1,7 @@
+/usr/bin/compareECL
+/usr/bin/convertECL
+/usr/bin/flow
+/usr/bin/opmhash
+/usr/bin/opmi
+/usr/bin/opmpack
+/usr/bin/summary

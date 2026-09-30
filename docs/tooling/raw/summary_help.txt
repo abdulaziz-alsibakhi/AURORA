@@ -1,0 +1,11 @@
+
+summary needs a minimum of two arguments. First is smspec filename and then list of vectors  
+
+In addition, the program takes these options (which must be given before the arguments):
+
+-h Print help and exit.
+-o Write output to given file instead of stdout.
+-l list all summary vectors.
+-n print summary vectors without headers.
+-r extract data only for report steps. 
+

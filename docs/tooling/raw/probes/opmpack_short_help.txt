@@ -1,0 +1,26 @@
+opmpack: invalid option -- 'h'
+
+The opmpack program will load a deck, resolve all include
+files and then print it out again on stdout. All comments
+will be stripped and the value types will be validated.
+
+By passing the option -o you can redirect the output to a file
+or a directory.
+
+Print on stdout:
+
+   opmpack  /path/to/case/CASE.DATA
+
+
+Print MY_CASE.DATA in /tmp:
+
+    opmpack -o /tmp /path/to/MY_CASE.DATA
+
+
+Print NEW_CASE in cwd:
+
+    opmpack -o NEW_CASE.DATA path/to/MY_CASE.DATA
+
+As an alternative to the -o option you can use -c; that is equivalent to -o -
+but restart and import files referred to in the deck are also copied. The -o and
+-c options are mutually exclusive.

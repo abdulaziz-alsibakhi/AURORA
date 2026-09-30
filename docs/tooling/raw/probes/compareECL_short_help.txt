@@ -1,0 +1,39 @@
+
+compareECL compares ECLIPSE files (restart (.RST), unified restart (.UNRST), initial (.INIT), summary (.SMRY), unified summary (.UNSMRY) or .RFT) and gridsizes (from .EGRID or .GRID file) from two simulations.
+The program takes four arguments:
+
+1. Case number 1, reference case (path without extension)
+2. Case number 2, test case (path without extension)
+3. Absolute tolerance
+4. Relative tolerance (between 0 and 1)
+
+In addition, the program takes these options (which must be given before the arguments):
+
+-a Run a full analysis of errors.
+-h Print help and exit.
+-d Use report steps only when comparing results from summary files.
+-i Execute integration test (regression test is default).
+   The integration test compares SGAS, SWAT and PRESSURE in unified restart files, and WOPR, WGPR, WWPR and WBHP (all wells) in summary file. 
+-k Specify specific keyword to compare (capitalized), for examples -k PRESSURE or -k WOPR:A-1H 
+-l Only do comparison for the last Report Step. This option is only valid for restart files.
+-n Do not throw on errors.
+-p Print keywords in both cases and exit.
+-r compare a specific report time step number in a restart file.
+-t Specify ECLIPSE filetype to compare, (default behaviour is that all files are compared if found). Different possible arguments are:
+    -t UNRST 	 Compare two unified restart files (.UNRST). This the default value, so it is the same as not passing option -t.
+    -t EGRID  	 Compare two EGrid files (.EGRID).
+    -t INIT  	 Compare two initial files (.INIT).
+    -t RFT   	 Compare two RFT files (.RFT).
+    -t SMRY  	 Compare two cases consistent of (unified) summary files.
+    -t RSM   	 Compare RSM file against a summary file.
+-x Allow extra keywords in case number 2. These additional keywords (not found in case number1) will be ignored in the comparison.
+-y Allow extra keywords in both cases. These additional keywords will be ignored in the comparison.
+
+Example usage of the program: 
+
+compareECL -k PRESSURE <path to first casefile> <path to second casefile> 1e-3 1e-5
+compareECL -t INIT -k PORO <path to first casefile> <path to second casefile> 1e-3 1e-5
+compareECL -i <path to first casefile> <path to second casefile> 0.01 1e-6
+
+Exceptions are thrown (and hence program exits) when deviations are larger than the specified tolerances, or when the number of cells does not match -- either in the grid file or for a specific keyword. Information about the keyword, keyword occurrence (zero based) and cell coordinate is printed when an exception is thrown. For more information about how the cases are compared, see the documentation of the EclFilesComparator class.
+

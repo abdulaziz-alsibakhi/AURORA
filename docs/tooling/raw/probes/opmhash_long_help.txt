@@ -1,0 +1,36 @@
+opmhash: invalid option -- '-'
+opmhash: invalid option -- 'h'
+opmhash: invalid option -- 'e'
+opmhash: invalid option -- 'p'
+The purpose of the opmhash program is to load a deck and create a summary, by
+diffing two such summaries it is simple to determine if two decks are similar.
+For each keyword a hash of the normalized content is calculated. The output of
+the program will look like this:
+
+  RUNSPEC  : 13167205945009276792
+  TITLE    : 16047371705964514902
+  DIMENS   : 1264233216877515756
+  NONNC    : 10052807539267647959
+  OIL      : 6013609912232720008
+  WATER    : 14106203893673265964
+
+  Total    : 7362809723723482303
+
+Where the 'random' integer following each keyword is the hash of the content of
+that keyword. The hashing is insensitive to changes in white-space and comments
+and file location. At the bottom comes a total hash of the complete content. The
+hash of each keyword is insensitive to shuffling of keywords, but the total hash
+depends on the keyword order.
+
+Options:
+
+ -l : Add filename and linenumber information to each keyword.
+ -s : Short form - only print the hash of the complete deck.
+ -S : Silent form - will not print any deck output.
+
+It is possible to add multiple deck arguments, they are then scanned repeatedly,
+and the decks are compared. In the case of multiple deck arguments the exit
+status of the program will be zero if all are equal and nonzero in case of
+differences.
+
+

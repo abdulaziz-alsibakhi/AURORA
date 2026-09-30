@@ -1,0 +1,1 @@
+Error: The number of options and arguments given is not correct. Please run compareECL -h to see manual.
