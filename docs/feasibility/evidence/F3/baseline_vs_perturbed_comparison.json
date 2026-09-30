@@ -1,0 +1,84 @@
+{
+  "experiment": "F3 baseline vs INJECT1 rate perturbation",
+  "report_steps_compared": 120,
+  "control": {
+    "well": "INJECT1",
+    "baseline_requested_and_realized": 79.5,
+    "perturbed_requested_and_realized": 60.0,
+    "absolute_change": -19.5,
+    "percent_change": -24.528301886792452
+  },
+  "field_injection": {
+    "baseline": 636.0,
+    "perturbed": 616.5,
+    "absolute_change": -19.5,
+    "percent_change": -3.0660377358490565
+  },
+  "trajectory_response": {
+    "max_abs_FOPR_difference": 19.60385199999996,
+    "max_abs_FWPR_difference": 39.17579700000002
+  },
+  "final_cumulatives": {
+    "FOPT": {
+      "baseline": 496485.65625,
+      "perturbed": 494728.875,
+      "delta": -1756.78125,
+      "percent_change": -0.3538433040078386
+    },
+    "FWPT": {
+      "baseline": 1793114.0,
+      "perturbed": 1724672.0,
+      "delta": -68442.0,
+      "percent_change": -3.816935231111909
+    },
+    "FWIT": {
+      "baseline": 2289600.0,
+      "perturbed": 2219400.0,
+      "delta": -70200.0,
+      "percent_change": -3.0660377358490565
+    }
+  },
+  "untouched_injectors_identical": {
+    "INJECT2": true,
+    "INJECT3": true,
+    "INJECT4": true,
+    "INJECT5": true,
+    "INJECT6": true,
+    "INJECT7": true,
+    "INJECT8": true
+  },
+  "producer_response": {
+    "PROD1": {
+      "max_abs_oil_rate_difference": 59.209334999999996,
+      "max_abs_water_rate_difference": 19.962847,
+      "final_oil_rate_baseline": 2.255867,
+      "final_oil_rate_perturbed": 2.458029,
+      "final_water_rate_baseline": 132.380646,
+      "final_water_rate_perturbed": 121.785362
+    },
+    "PROD2": {
+      "max_abs_oil_rate_difference": 13.497124,
+      "max_abs_water_rate_difference": 21.662644,
+      "final_oil_rate_baseline": 8.453599,
+      "final_oil_rate_perturbed": 8.527838,
+      "final_water_rate_baseline": 311.581421,
+      "final_water_rate_perturbed": 305.483185
+    },
+    "PROD3": {
+      "max_abs_oil_rate_difference": 15.145897000000005,
+      "max_abs_water_rate_difference": 2.5215239999999994,
+      "final_oil_rate_baseline": 2.636353,
+      "final_oil_rate_perturbed": 2.623443,
+      "final_water_rate_baseline": 74.689339,
+      "final_water_rate_perturbed": 73.025459
+    },
+    "PROD4": {
+      "max_abs_oil_rate_difference": 12.011032,
+      "max_abs_water_rate_difference": 2.5927779999999956,
+      "final_oil_rate_baseline": 2.622214,
+      "final_oil_rate_perturbed": 2.619087,
+      "final_water_rate_baseline": 101.386078,
+      "final_water_rate_perturbed": 99.983185
+    }
+  }
+}

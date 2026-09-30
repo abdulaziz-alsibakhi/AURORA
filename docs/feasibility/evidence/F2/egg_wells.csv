@@ -1,0 +1,13 @@
+well,role,i,j,completion_records
+INJECT1,injector,5,57,1
+INJECT2,injector,30,53,1
+INJECT3,injector,2,35,1
+INJECT4,injector,27,29,1
+INJECT5,injector,50,35,1
+INJECT6,injector,8,9,1
+INJECT7,injector,32,2,1
+INJECT8,injector,57,6,1
+PROD1,producer,16,43,1
+PROD2,producer,35,40,1
+PROD3,producer,23,16,1
+PROD4,producer,43,18,1

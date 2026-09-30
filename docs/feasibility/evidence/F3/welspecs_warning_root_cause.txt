@@ -1,0 +1,38 @@
+AURORA F3 - WELSPECS Warning Root-Cause Test
+
+Original Egg reporting directive:
+    RPTSCHED
+        FIP WELSPECS WELLS /
+
+Diagnostic directive:
+    RPTSCHED
+        FIP WELLS /
+
+Actual WELSPECS well-definition block:
+    UNCHANGED
+
+Original baseline repeated warning count:
+    120
+
+Diagnostic repeated warning count:
+    0
+
+Diagnostic OPM Flow exit status:
+    0
+
+Diagnostic number of timesteps:
+    128
+
+Diagnostic Newton iterations:
+    429
+
+Baseline Newton iterations:
+    429
+
+Interpretation:
+Removing WELSPECS from the RPTSCHED reporting request eliminated
+the repeated restart-output warning while leaving the actual
+WELSPECS well-definition block unchanged.
+
+Numerical-output equivalence is tested separately before this
+compatibility cleanup is adopted into AURORA working cases.

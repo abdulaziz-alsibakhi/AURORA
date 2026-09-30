@@ -1,0 +1,36 @@
+AURORA F3 - RPTSCHED WELSPECS Cleanup Binary Equivalence
+
+EGG_MODEL_ECL.EGRID
+  baseline bytes: 999520
+  cleaned bytes:  999520
+  baseline SHA256: 7d95591e50874a4bdedbace04aee2400273f02bfdf29087fe2c1eeb8ba17167d
+  cleaned SHA256:  7d95591e50874a4bdedbace04aee2400273f02bfdf29087fe2c1eeb8ba17167d
+  result: IDENTICAL
+
+EGG_MODEL_ECL.INIT
+  baseline bytes: 1521324
+  cleaned bytes:  1521324
+  baseline SHA256: dd2b032f097ff47a59a5416446e2ecd6083e45da91b6e5fbda8cc1a7fa2d1850
+  cleaned SHA256:  dd2b032f097ff47a59a5416446e2ecd6083e45da91b6e5fbda8cc1a7fa2d1850
+  result: IDENTICAL
+
+EGG_MODEL_ECL.SMSPEC
+  baseline bytes: 1400
+  cleaned bytes:  1400
+  baseline SHA256: bbdf5afe9b968ab46ca73dcf0c115dd962af256e03a31ba0db00f9ccfe750bb5
+  cleaned SHA256:  aab8106961c6dc02ab418afea6618d4f8a67fb9bd2de1374ddde05b078404bf3
+  result: DIFFERENT
+
+EGG_MODEL_ECL.UNSMRY
+  baseline bytes: 25920
+  cleaned bytes:  25920
+  baseline SHA256: e4d8c5500efd28a6f60d1bc4f0e3ea6fc7e9b127630074577c7bed4d9ba8c13d
+  cleaned SHA256:  e4d8c5500efd28a6f60d1bc4f0e3ea6fc7e9b127630074577c7bed4d9ba8c13d
+  result: IDENTICAL
+
+EGG_MODEL_ECL.UNRST
+  baseline bytes: 182827476
+  cleaned bytes:  182827476
+  baseline SHA256: 5fb2f8df218fdf0b67ffffa19226aef976fd7b3b018f81e1e70ca191b38b1ae8
+  cleaned SHA256:  5fb2f8df218fdf0b67ffffa19226aef976fd7b3b018f81e1e70ca191b38b1ae8
+  result: IDENTICAL

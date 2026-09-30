@@ -1,0 +1,13 @@
+DATEPRD,NPD_WELL_BORE_CODE,NPD_WELL_BORE_NAME,FLOW_KIND,WELL_TYPE,role,previous_role
+2016-04-11,5769,15/9-F-5,production,WI,production|WI,injection|WI
+2016-04-12,5769,15/9-F-5,production,OP,production|OP,production|WI
+2016-05-04,5769,15/9-F-5,production,WI,production|WI,production|OP
+2016-05-05,5769,15/9-F-5,production,OP,production|OP,production|WI
+2016-07-26,5769,15/9-F-5,production,WI,production|WI,production|OP
+2016-08-02,5769,15/9-F-5,production,OP,production|OP,production|WI
+2016-09-06,5769,15/9-F-5,production,WI,production|WI,production|OP
+2016-09-13,5769,15/9-F-5,production,OP,production|OP,production|WI
+2016-09-18,5769,15/9-F-5,injection,WI,injection|WI,production|OP
+2014-04-08,7405,15/9-F-1 C,production,OP,production|OP,production|WI
+2014-07-07,7405,15/9-F-1 C,production,WI,production|WI,production|OP
+2014-07-08,7405,15/9-F-1 C,production,OP,production|OP,production|WI

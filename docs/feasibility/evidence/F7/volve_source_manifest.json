@@ -1,0 +1,15 @@
+{
+  "source": "data/volve/original/Volve production data.xlsx",
+  "bytes": 2342595,
+  "sha256": "514d4e38763e09be7fbad12313429909b9799b1a6ec999bf5f36e0df1b6c9cae",
+  "sheets": {
+    "Daily Production Data": {
+      "rows": 15634,
+      "columns": 24
+    },
+    "Monthly Production Data": {
+      "raw_rows": 527,
+      "columns": 10
+    }
+  }
+}

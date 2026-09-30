@@ -1,0 +1,10 @@
+{
+  "expected_cells_per_array": 25200,
+  "realizations_checked": 100,
+  "fully_resolved_valid_realizations": 100,
+  "invalid_realizations": 0,
+  "copy_encoded_realizations": [
+    54
+  ],
+  "problems": []
+}

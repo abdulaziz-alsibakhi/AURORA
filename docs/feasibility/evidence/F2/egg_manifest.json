@@ -1,0 +1,78 @@
+{
+  "document": "F2 Egg Dataset Technical Audit",
+  "dataset": "Egg Model",
+  "generated": "2026-09-22T16:28:25.183373-04:00",
+  "evidence_directory": "docs/feasibility/evidence/F2",
+  "evidence_files": [
+    {
+      "file": "egg_audit.json",
+      "bytes": 33435,
+      "sha256": "7eac8ffcca04dc8b091017c705ea8a7c3a16c70b5b7691bd582ed8000bf435eb"
+    },
+    {
+      "file": "egg_audit.log",
+      "bytes": 2873,
+      "sha256": "2a1f98485b08a72790cabf00a7613bc6ad165fddfab7dfe351f4fd1376cc25fd"
+    },
+    {
+      "file": "egg_audit_summary.txt",
+      "bytes": 831,
+      "sha256": "21552bffbb0ed5de44f15cfff5a0aab22ecdcab68f22239d10d1d6f91c6925c5"
+    },
+    {
+      "file": "egg_engineering_properties.csv",
+      "bytes": 4738,
+      "sha256": "0c082c327737878fd8ce4d7a15afb8eec2cbbcfe06a45814f5c96fae4d1c0d7d"
+    },
+    {
+      "file": "egg_engineering_summary.json",
+      "bytes": 1457,
+      "sha256": "0d6aa0c8c28b882f3a25ccff344477f8567b544b60f857cd566ea729ab346775"
+    },
+    {
+      "file": "egg_file_tree.txt",
+      "bytes": 10500,
+      "sha256": "05abedf1e0470afddef5f379297640f40e8aeb7e1b6b2de346a2b9d71392e091"
+    },
+    {
+      "file": "egg_model_structure.json",
+      "bytes": 4761,
+      "sha256": "7a0bd8a3eef7ecbefa1d2e3f52b9db513ddbfe46331dd2b429f1559bad2d1a77"
+    },
+    {
+      "file": "egg_permeability_validation.csv",
+      "bytes": 8729,
+      "sha256": "13410bd1a6b8fbfe5af69f917fc994424c4c0eec1d994a407586b6a1492ffb13"
+    },
+    {
+      "file": "egg_permeability_validation.json",
+      "bytes": 206,
+      "sha256": "d33af292a0a075f44d0b669973b911bef13887a60928ba8b3ec4d7b920f68928"
+    },
+    {
+      "file": "egg_physical_control_sections.txt",
+      "bytes": 6588,
+      "sha256": "2eff6384d7a0f16ff41a89fb1dbdf570bf5ec20db2ef0bdd6caf9cbe9c6bcb6f"
+    },
+    {
+      "file": "egg_properties.csv",
+      "bytes": 959,
+      "sha256": "412ffbfd57d5c3687107ff7109ee27967d4d646aa5b64227c3ee62a2feaa9ab6"
+    },
+    {
+      "file": "egg_realizations.csv",
+      "bytes": 6029,
+      "sha256": "bbcaebd6eb9ebad7326564de46388b78f29e441665a082305069abf42e8f0ee1"
+    },
+    {
+      "file": "egg_wells.csv",
+      "bytes": 332,
+      "sha256": "f42ffe8ecabde9eae188fe815e1ab60956fe56a73e5701d1e62fe2fe19658837"
+    }
+  ],
+  "report": {
+    "file": "docs/feasibility/F2_egg_dataset_audit.md",
+    "bytes": 10023,
+    "sha256": "a2a3ae99cc20e6d2db64fa341dc12281cf9d6480823fed894f0d03697ae1ad4c"
+  }
+}

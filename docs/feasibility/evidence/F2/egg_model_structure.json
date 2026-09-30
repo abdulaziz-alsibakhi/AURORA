@@ -1,0 +1,245 @@
+{
+  "dimensions": [
+    60,
+    60,
+    7
+  ],
+  "total_grid_cells": 25200,
+  "include_files": {
+    "ACTIVE.INC": {
+      "referenced_by_deck": true,
+      "exists": true
+    },
+    "mDARCY.INC": {
+      "referenced_by_deck": true,
+      "exists": true
+    },
+    "COMPDAT.INC": {
+      "referenced_by_deck": false,
+      "exists": true
+    },
+    "SCHEDULE_NEW.INC": {
+      "referenced_by_deck": true,
+      "exists": true
+    }
+  },
+  "actnum": {
+    "value_count": 25200,
+    "active_cells": 18553,
+    "inactive_cells": 6647,
+    "matches_grid_cell_count": true
+  },
+  "property_checks": {
+    "METRIC": {
+      "present": true,
+      "source": "deck"
+    },
+    "OIL": {
+      "present": true,
+      "source": "deck"
+    },
+    "WATER": {
+      "present": true,
+      "source": "deck"
+    },
+    "DIMENS": {
+      "present": true,
+      "source": "deck"
+    },
+    "SPECGRID": {
+      "present": true,
+      "source": "deck"
+    },
+    "DX": {
+      "present": true,
+      "source": "deck"
+    },
+    "DY": {
+      "present": true,
+      "source": "deck"
+    },
+    "DZ": {
+      "present": true,
+      "source": "deck"
+    },
+    "TOPS": {
+      "present": true,
+      "source": "deck"
+    },
+    "ACTNUM": {
+      "present": true,
+      "source": "ACTIVE.INC"
+    },
+    "NTG": {
+      "present": true,
+      "source": "deck"
+    },
+    "PORO": {
+      "present": true,
+      "source": "deck"
+    },
+    "PERMX": {
+      "present": true,
+      "source": "mDARCY.INC"
+    },
+    "PERMY": {
+      "present": true,
+      "source": "mDARCY.INC:COPY(PERMX->PERMY)",
+      "resolved_semantically": true
+    },
+    "PERMZ": {
+      "present": true,
+      "source": "mDARCY.INC:COPY(PERMX->PERMZ);MULTIPLY(PERMZ,0.1)",
+      "resolved_semantically": true
+    },
+    "PVCDO": {
+      "present": true,
+      "source": "deck"
+    },
+    "PVTW": {
+      "present": true,
+      "source": "deck"
+    },
+    "ROCK": {
+      "present": true,
+      "source": "deck"
+    },
+    "SWOF": {
+      "present": true,
+      "source": "deck"
+    },
+    "EQUIL": {
+      "present": true,
+      "source": "deck"
+    },
+    "WELSPECS": {
+      "present": true,
+      "source": "deck"
+    },
+    "COMPDAT": {
+      "present": true,
+      "source": "deck;COMPDAT.INC"
+    },
+    "WCONPROD": {
+      "present": true,
+      "source": "deck"
+    },
+    "WCONINJE": {
+      "present": true,
+      "source": "SCHEDULE_NEW.INC"
+    },
+    "SCHEDULE": {
+      "present": true,
+      "source": "deck"
+    },
+    "TSTEP": {
+      "present": true,
+      "source": "SCHEDULE_NEW.INC"
+    }
+  },
+  "wells": {
+    "total": 12,
+    "injectors": 8,
+    "producers": 4,
+    "records": [
+      {
+        "well": "INJECT1",
+        "role": "injector",
+        "i": 5,
+        "j": 57,
+        "completion_records": 1
+      },
+      {
+        "well": "INJECT2",
+        "role": "injector",
+        "i": 30,
+        "j": 53,
+        "completion_records": 1
+      },
+      {
+        "well": "INJECT3",
+        "role": "injector",
+        "i": 2,
+        "j": 35,
+        "completion_records": 1
+      },
+      {
+        "well": "INJECT4",
+        "role": "injector",
+        "i": 27,
+        "j": 29,
+        "completion_records": 1
+      },
+      {
+        "well": "INJECT5",
+        "role": "injector",
+        "i": 50,
+        "j": 35,
+        "completion_records": 1
+      },
+      {
+        "well": "INJECT6",
+        "role": "injector",
+        "i": 8,
+        "j": 9,
+        "completion_records": 1
+      },
+      {
+        "well": "INJECT7",
+        "role": "injector",
+        "i": 32,
+        "j": 2,
+        "completion_records": 1
+      },
+      {
+        "well": "INJECT8",
+        "role": "injector",
+        "i": 57,
+        "j": 6,
+        "completion_records": 1
+      },
+      {
+        "well": "PROD1",
+        "role": "producer",
+        "i": 16,
+        "j": 43,
+        "completion_records": 1
+      },
+      {
+        "well": "PROD2",
+        "role": "producer",
+        "i": 35,
+        "j": 40,
+        "completion_records": 1
+      },
+      {
+        "well": "PROD3",
+        "role": "producer",
+        "i": 23,
+        "j": 16,
+        "completion_records": 1
+      },
+      {
+        "well": "PROD4",
+        "role": "producer",
+        "i": 43,
+        "j": 18,
+        "completion_records": 1
+      }
+    ]
+  },
+  "schedule": {
+    "tstep_count": 120,
+    "total_days": 3600.0,
+    "unique_tstep_days": [
+      30.0
+    ]
+  },
+  "base_permeability_semantics": {
+    "PERMX": "explicit array",
+    "PERMY": "copied from PERMX",
+    "PERMZ": "copied from PERMX then multiplied by 0.1",
+    "resolved_cells_per_direction": 25200
+  },
+  "compdat_note": "COMPDAT.INC exists but is not referenced by Egg_Model_ECL.DATA. The main Eclipse deck contains its own COMPDAT section."
+}

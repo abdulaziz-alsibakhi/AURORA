@@ -1,0 +1,73 @@
+AURORA EXTERNAL SOURCE PROVENANCE
+=================================
+
+EGG MODEL DATASET
+-----------------
+Local artifact:
+data/egg/egg_model_original.zip
+
+Official source:
+TU Delft Research Data / 4TU.ResearchData
+
+Persistent identifier:
+https://doi.org/10.4121/uuid:916c86cd-3558-4672-829a-105c62985ab2
+
+Associated publication:
+Jansen, J. D., Fonseca, R. M., Kahrobaei, S., Siraj, M. M.,
+Van Essen, G. M., & Van den Hof, P. M. J. (2014).
+The Egg Model - A Geological Ensemble for Reservoir Simulation.
+Geoscience Data Journal.
+
+Local publication:
+references/egg/Jansen_2014_The_Egg_Model.pdf
+
+
+OPM FLOW
+--------
+Local reference:
+references/opm/OPM_Flow_Reference_Manual_2025-10.pdf
+
+Official project:
+https://opm-project.org/
+
+Official download/install information:
+https://opm-project.org/\?page_id\=36
+
+Purpose in AURORA:
+High-fidelity reservoir simulation/reference model for controlled
+experiments and ROM/full-physics comparison.
+
+Installation/execution status:
+NOT YET TESTED.
+Installation and execution will be formally captured during F3.
+
+
+VOLVE FIELD DATA
+----------------
+Local licence:
+references/volve/Equinor_Volve_Data_Licence.pdf
+
+Official source:
+https://www.equinor.com/energy/volve-data-sharing
+
+Provider:
+Equinor
+
+Purpose in AURORA:
+Real-field grounding and reduced-order/CRM plausibility analysis.
+Volve is NOT treated as counterfactual ground truth for actions that
+were never historically executed.
+
+Dataset download status:
+FULL DATASET NOT DOWNLOADED.
+Relevant subset will be identified and obtained during F7.
+
+
+CARLETON CAPSTONE REQUIREMENTS
+-----------------------------
+Local reference:
+
+Purpose:
+Authoritative course/project requirements used when evaluating
+AURORA feasibility, engineering scope, testing, individual
+contributions, documentation and project planning.

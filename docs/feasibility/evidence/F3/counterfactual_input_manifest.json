@@ -1,0 +1,46 @@
+{
+  "f3_baseline": {
+    "Egg_Model_ECL.DATA": {
+      "bytes": 4571,
+      "sha256": "2e3c959cbd4847c480252ff43d5de1c980fa4565172ea3cd1b66d110ee5fa886"
+    },
+    "ACTIVE.INC": {
+      "bytes": 51675,
+      "sha256": "196196383777a4c17d5131a675f3d601b0f22baef70a84ed66e993703e75b9f6"
+    },
+    "COMPDAT.INC": {
+      "bytes": 846,
+      "sha256": "5b03e7f974c42ef91f957fa94be433c7ad8ed8ac721720d071e9795a99c5a545"
+    },
+    "mDARCY.INC": {
+      "bytes": 189358,
+      "sha256": "5d6a9cd8b1d4bcbec91cca76f648cf00002ab221bb85251164af66f90be487c1"
+    },
+    "SCHEDULE_NEW.INC": {
+      "bytes": 2316,
+      "sha256": "e95edcdc23560671748e0a3355563e00798fb821d0e604fa670e9477c572ee11"
+    }
+  },
+  "f3_perturbed": {
+    "Egg_Model_ECL.DATA": {
+      "bytes": 4571,
+      "sha256": "2e3c959cbd4847c480252ff43d5de1c980fa4565172ea3cd1b66d110ee5fa886"
+    },
+    "ACTIVE.INC": {
+      "bytes": 51675,
+      "sha256": "196196383777a4c17d5131a675f3d601b0f22baef70a84ed66e993703e75b9f6"
+    },
+    "COMPDAT.INC": {
+      "bytes": 846,
+      "sha256": "5b03e7f974c42ef91f957fa94be433c7ad8ed8ac721720d071e9795a99c5a545"
+    },
+    "mDARCY.INC": {
+      "bytes": 189358,
+      "sha256": "5d6a9cd8b1d4bcbec91cca76f648cf00002ab221bb85251164af66f90be487c1"
+    },
+    "SCHEDULE_NEW.INC": {
+      "bytes": 2060,
+      "sha256": "411333440460cf4c0b24e4631f5f310c6b5f9eca4e9f26692bb22186d2b493a8"
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "grid": {
+    "dimensions": [
+      60,
+      60,
+      7
+    ],
+    "cartesian_cells": 25200,
+    "active_cells": 18553,
+    "inactive_cells": 6647
+  },
+  "ensemble": {
+    "supplied_permeability_realization_files": 100,
+    "validated_files": 100,
+    "invalid_files": 0
+  },
+  "wells": {
+    "injectors": 8,
+    "producers": 4,
+    "total": 12,
+    "completion_layers": [
+      1,
+      7
+    ]
+  },
+  "baseline_control": {
+    "producer_mode": "BHP",
+    "producer_raw_value": 395,
+    "injector_phase": "WATER",
+    "injector_mode": "RATE",
+    "injector_rate_raw_value": 79.5,
+    "injector_additional_raw_value": 420
+  },
+  "schedule": {
+    "steps": 120,
+    "days_per_step": 30,
+    "total_days": 3600
+  },
+  "confirmed_requested_summary_quantities": [
+    "FOPR",
+    "FWPR",
+    "FWIR",
+    "WOPR",
+    "WWPR",
+    "WWIR",
+    "FOPT",
+    "FWPT",
+    "FWIT",
+    "WLPR"
+  ],
+  "open_questions_for_F3": [
+    "Exact OPM interpretation/unit of WCONPROD raw BHP value 395.",
+    "Exact OPM interpretation/unit of WCONINJE additional raw value 420.",
+    "Whether pressure quantities required by AURORA are available from generated OPM outputs or require added SUMMARY keywords.",
+    "Whether the supplied Egg deck executes successfully in the selected OPM Flow version.",
+    "Whether changing a legitimate injector control causes measurable physical response.",
+    "Whether required simulator outputs can be extracted programmatically."
+  ]
+}

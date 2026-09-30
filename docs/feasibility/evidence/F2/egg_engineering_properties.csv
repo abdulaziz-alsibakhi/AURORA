@@ -1,0 +1,41 @@
+category,quantity,value,unit_or_status,source,AURORA_significance
+grid,dimensions,60 x 60 x 7,cells,Egg_Model_ECL.DATA:DIMENS,Defines reservoir grid topology.
+grid,total_cartesian_cells,25200,cells,DIMENS-derived,Expected full-grid array length.
+grid,active_cells,18553,cells,ACTIVE.INC:ACTNUM,Cells participating in reservoir simulation.
+grid,inactive_cells,6647,cells,ACTIVE.INC:ACTNUM,Inactive Cartesian cells.
+rock,porosity,0.2,fraction,Egg_Model_ECL.DATA:PORO,Uniform porosity specified by supplied deck.
+rock,net_to_gross,1,fraction,Egg_Model_ECL.DATA:NTG,Uniform NTG specified by supplied deck.
+permeability,base_PERMX,25200 explicit values,mD,mDARCY.INC:PERMX,Base horizontal permeability field.
+permeability,base_PERMY,COPY of PERMX,mD,mDARCY.INC:COPY,Base Y permeability equals X permeability.
+permeability,base_PERMZ,0.1 x PERMX,mD,mDARCY.INC:COPY+MULTIPLY,Base vertical permeability is one tenth of X.
+ensemble,supplied_realization_files,100,files,Permeability_Realizations/PERM1..PERM100_ECL.INC,Geological uncertainty ensemble supplied with dataset.
+ensemble,structurally_valid_realization_files,100/100,PASS,egg_permeability_validation.json,Every supplied realization resolves complete X/Y/Z fields.
+fluid,oil_density,900,METRIC deck units,Egg_Model_ECL.DATA:DENSITY,Oil density input.
+fluid,water_density,1000,METRIC deck units,Egg_Model_ECL.DATA:DENSITY,Water density input.
+fluid,oil_PVT,present,PVCDO,Egg_Model_ECL.DATA:PVCDO,Oil PVT model supplied.
+fluid,water_PVT,present,PVTW,Egg_Model_ECL.DATA:PVTW,Water PVT model supplied.
+rock,rock_compressibility_model,present,ROCK,Egg_Model_ECL.DATA:ROCK,Rock property specification supplied.
+flow,relative_permeability,16 SWOF rows,table,Egg_Model_ECL.DATA:SWOF,Water/oil saturation-flow relationship supplied.
+initialization,equilibrium,4000 400 5000 0,raw deck values,Egg_Model_ECL.DATA:EQUIL,Initial equilibrium specification exists; positional semantics retained raw pending reference verification.
+wells,injectors,8,wells,Egg_Model_ECL.DATA:WELSPECS,Independent injection locations available for control.
+wells,producers,4,wells,Egg_Model_ECL.DATA:WELSPECS,Production-response locations.
+wells,completion_layers,1 through 7,layers,Egg_Model_ECL.DATA:COMPDAT,All listed wells completed across all seven layers.
+control,producer_control_mode,BHP,mode,Egg_Model_ECL.DATA:WCONPROD,Producers are pressure-controlled in supplied baseline.
+control,producer_BHP_raw_value,395,raw METRIC deck value,Egg_Model_ECL.DATA:WCONPROD,Exact unit/keyword semantics to be verified against simulator reference.
+control,injector_phase,WATER,phase,SCHEDULE_NEW.INC:WCONINJE,Waterflood injection.
+control,injector_control_mode,RATE,mode,SCHEDULE_NEW.INC:WCONINJE,Injection rate is an explicit controllable quantity.
+control,baseline_injection_rate,79.5,raw METRIC deck value,SCHEDULE_NEW.INC:WCONINJE,Baseline rate used for all eight injectors.
+control,injector_additional_raw_value,420,raw METRIC deck value,SCHEDULE_NEW.INC:WCONINJE,Likely constraint/control field; exact positional semantics intentionally deferred to reference verification.
+schedule,timesteps,120,steps,SCHEDULE_NEW.INC:TSTEP,Number of supplied simulation intervals.
+schedule,timestep_length,30,days,SCHEDULE_NEW.INC:TSTEP,All supplied baseline intervals have equal duration.
+schedule,total_duration,3600,days,TSTEP-derived,Approximately 9.86 years of simulated baseline schedule.
+output,field_oil_rate,FOPR,requested,Egg_Model_ECL.DATA:SUMMARY,Field oil-production response requested.
+output,field_water_rate,FWPR,requested,Egg_Model_ECL.DATA:SUMMARY,Field water-production response requested.
+output,field_water_injection_rate,FWIR,requested,Egg_Model_ECL.DATA:SUMMARY,Field injection response requested.
+output,producer_oil_rates,WOPR PROD1-PROD4,requested,Egg_Model_ECL.DATA:SUMMARY,Per-producer oil response requested.
+output,producer_water_rates,WWPR PROD1-PROD4,requested,Egg_Model_ECL.DATA:SUMMARY,Per-producer water response requested.
+output,injector_water_rates,WWIR INJECT1-INJECT8,requested,Egg_Model_ECL.DATA:SUMMARY,Per-injector realized injection requested.
+output,field_cumulatives,FOPT; FWPT; FWIT,requested,Egg_Model_ECL.DATA:SUMMARY,Cumulative production/injection quantities requested.
+output,producer_liquid_rates,WLPR PROD1-PROD4,requested,Egg_Model_ECL.DATA:SUMMARY,Per-producer liquid response requested.
+output,explicit_pressure_summary,not observed in supplied SUMMARY section,OPEN,Egg_Model_ECL.DATA:SUMMARY,Do not claim pressure summary availability until F3 execution/output inspection.
+output,actual_OPM_outputs,not yet tested,F3,Pending OPM execution,Requested keywords are not evidence that executable output files are successfully generated/read.

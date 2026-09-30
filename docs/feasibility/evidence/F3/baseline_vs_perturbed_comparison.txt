@@ -1,0 +1,78 @@
+AURORA F3 - BASELINE VS CONTROL-PERTURBED OPM COMPARISON
+=============================================================
+
+CONTROL REALIZATION
+-------------------
+INJECT1 baseline:   79.500000
+INJECT1 perturbed:  60.000000
+Absolute change:   -19.500000
+Percent change:    -24.528302%
+
+FIELD INJECTION
+---------------
+Baseline FWIR:      636.000000
+Perturbed FWIR:     616.500000
+Absolute change:    -19.500000
+Percent change:     -3.066038%
+
+TRAJECTORY RESPONSE
+-------------------
+Max |FOPR difference|: 19.603852
+Max |FWPR difference|: 39.175797
+
+FINAL CUMULATIVES
+-----------------
+FOPT:
+  baseline:       496485.656250
+  perturbed:      494728.875000
+  delta:          -1756.781250
+  percent change: -0.353843%
+FWPT:
+  baseline:       1793114.000000
+  perturbed:      1724672.000000
+  delta:          -68442.000000
+  percent change: -3.816935%
+FWIT:
+  baseline:       2289600.000000
+  perturbed:      2219400.000000
+  delta:          -70200.000000
+  percent change: -3.066038%
+
+UNTOUCHED INJECTORS
+-------------------
+INJECT2: IDENTICAL
+INJECT3: IDENTICAL
+INJECT4: IDENTICAL
+INJECT5: IDENTICAL
+INJECT6: IDENTICAL
+INJECT7: IDENTICAL
+INJECT8: IDENTICAL
+
+PRODUCER RESPONSE
+-----------------
+PROD1:
+  max |oil-rate difference|:   59.209335
+  max |water-rate difference|: 19.962847
+PROD2:
+  max |oil-rate difference|:   13.497124
+  max |water-rate difference|: 21.662644
+PROD3:
+  max |oil-rate difference|:   15.145897
+  max |water-rate difference|: 2.521524
+PROD4:
+  max |oil-rate difference|:   12.011032
+  max |water-rate difference|: 2.592778
+
+F3 COUNTERFACTUAL CONTROL GATE
+------------------------------
+PASS
+
+The requested INJECT1 control change was realized by OPM Flow.
+The other seven injector trajectories remained unchanged.
+Field injection changed by the expected amount.
+Oil and water production trajectories responded measurably.
+Final cumulative reservoir outcomes changed.
+
+Therefore, AURORA can programmatically modify a legitimate Egg
+control input and observe a measurable response from the OPM
+full-physics reference simulation.

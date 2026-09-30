@@ -1,0 +1,11 @@
+NPD_WELL_BORE_NAME,FLOW_KIND,WELL_TYPE,rows
+15/9-F-1 C,production,OP,744
+15/9-F-1 C,production,WI,2
+15/9-F-11,production,OP,1165
+15/9-F-12,production,OP,3056
+15/9-F-14,production,OP,3056
+15/9-F-15 D,production,OP,978
+15/9-F-4,injection,WI,3327
+15/9-F-5,injection,WI,3146
+15/9-F-5,production,OP,144
+15/9-F-5,production,WI,16

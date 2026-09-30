@@ -1,0 +1,21 @@
+AURORA F3 - OPM EXECUTION ENVIRONMENT
+
+Recorded: 2026-09-22T16:41:20.085759-04:00
+
+Host:
+  macOS 26.6.2
+  Apple Silicon arm64
+
+Container runtime:
+  Docker Desktop
+  Docker Engine 29.8.0
+  Container architecture: aarch64
+
+OPM:
+  Flow version: 2026.04
+  Image repository: openporousmedia/opmreleases
+  Image digest:
+  sha256:18c497f6a918c160cd290081d4163abf6e2c349797e18e3b5669c9095044adff
+
+Execution policy:
+  F3 runs use the immutable digest, not :latest.

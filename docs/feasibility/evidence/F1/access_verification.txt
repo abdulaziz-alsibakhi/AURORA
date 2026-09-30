@@ -1,0 +1,23 @@
+AURORA F1 - ACCESS VERIFICATION
+===============================
+
+[PASS] Egg dataset obtained locally.
+[PASS] Egg archive integrity verified with unzip -t.
+[PASS] Egg archive contains simulator input/data files.
+[PASS] Egg archive contains permeability realizations PERM1-PERM100.
+[PASS] Egg peer-reviewed publication obtained locally.
+
+[PASS] OPM Flow official documentation obtained locally.
+[PENDING F3] OPM Flow installation and executable operation not yet verified.
+
+[PASS] Official Equinor Volve licence obtained locally.
+[PASS] Official Volve access source identified.
+[PENDING F7] Relevant Volve data subset not yet downloaded or audited.
+
+
+F1 NOTE:
+F1 establishes source existence, possession/access, provenance and basic
+artifact integrity. It does NOT establish that every dataset variable is
+sufficient for AURORA. Detailed Egg contents are evaluated in F2,
+OPM executability in F3, architecture/data sufficiency in F4, and
+Volve suitability in F7.

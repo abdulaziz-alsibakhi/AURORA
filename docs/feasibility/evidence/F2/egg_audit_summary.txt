@@ -1,0 +1,41 @@
+AURORA F2 - EGG DATASET TECHNICAL AUDIT
+========================================
+
+GRID
+----
+Dimensions: 60 x 60 x 7
+Total cells: 25200
+
+ACTIVE.INC
+----------
+value_count: 25200
+active_ones: 18553
+inactive_zeros: 6647
+other_values: 0
+
+BASE PERMEABILITY
+-----------------
+numeric_value_count: 25219
+minimum: 0.1
+maximum: 7000.0
+mean: 1134.072132122606
+median: 688.5
+
+REALIZATIONS
+------------
+count: 100
+unique numeric-value counts: [25207, 75600]
+minimum file size: 281926 bytes
+maximum file size: 845527 bytes
+
+SCHEDULE
+--------
+tstep_count: 120
+total_days: 3600.0
+unique_tstep_values: [30.0]
+injector_count_in_schedule: 8
+injector_rates: {'INJECT1': 79.5, 'INJECT2': 79.5, 'INJECT3': 79.5, 'INJECT4': 79.5, 'INJECT5': 79.5, 'INJECT6': 79.5, 'INJECT7': 79.5, 'INJECT8': 79.5}
+
+DATASET INVENTORY
+-----------------
+actual files: 133

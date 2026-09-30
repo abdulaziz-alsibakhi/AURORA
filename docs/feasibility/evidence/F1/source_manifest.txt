@@ -1,0 +1,14 @@
+AURORA FEASIBILITY SOURCE MANIFEST
+Generated: Tue 22 Sep 2026 16:06:33 EDT
+
+===== SHA-256 =====
+ec7cecd344a31f9c3244078bb0e895b1a99c81a99603d4a6082d4c326c775434  data/egg/egg_model_original.zip
+b56bb1909cdd51a5019c5c9bf700b8d147f120ab5f292be480bdcc7e757cd508  references/egg/Jansen_2014_The_Egg_Model.pdf
+7050907724c049fb1690e5845e78e01fe6f86b5317b07e25691299d506036df1  references/opm/OPM_Flow_Reference_Manual_2025-10.pdf
+14672b51cf672f20207ba587af0260cb5e6fdff3d63bdbf11628f504d6c77873  references/volve/Equinor_Volve_Data_Licence.pdf
+
+===== FILE METADATA =====
+data/egg/egg_model_original.zip | 49267594 bytes | modified 2026-09-22 16:06:22
+references/egg/Jansen_2014_The_Egg_Model.pdf | 757867 bytes | modified 2026-09-22 16:06:22
+references/opm/OPM_Flow_Reference_Manual_2025-10.pdf | 20899782 bytes | modified 2026-09-22 16:06:22
+references/volve/Equinor_Volve_Data_Licence.pdf | 250211 bytes | modified 2026-09-22 16:06:22

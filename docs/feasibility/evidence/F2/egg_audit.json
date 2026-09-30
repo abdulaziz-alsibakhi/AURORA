@@ -1,0 +1,1477 @@
+{
+  "grid": {
+    "nx": 60,
+    "ny": 60,
+    "nz": 7,
+    "total_cells": 25200
+  },
+  "active_cells": {
+    "value_count": 25200,
+    "active_ones": 18553,
+    "inactive_zeros": 6647,
+    "other_values": 0
+  },
+  "base_permeability": {
+    "numeric_value_count": 25219,
+    "minimum": 0.1,
+    "maximum": 7000.0,
+    "mean": 1134.072132122606,
+    "median": 688.5
+  },
+  "realization_count": 100,
+  "realizations": [
+    {
+      "realization": 1,
+      "file": "PERM1_ECL.INC",
+      "bytes": 845524,
+      "numeric_value_count": 75600,
+      "minimum": 5.4,
+      "maximum": 7000.0,
+      "mean": 794.4382566137566
+    },
+    {
+      "realization": 2,
+      "file": "PERM2_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 4.0,
+      "maximum": 7000.0,
+      "mean": 829.4940145502645
+    },
+    {
+      "realization": 3,
+      "file": "PERM3_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.4,
+      "maximum": 7000.0,
+      "mean": 834.514541005291
+    },
+    {
+      "realization": 4,
+      "file": "PERM4_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 7.6,
+      "maximum": 7000.0,
+      "mean": 861.0950066137566
+    },
+    {
+      "realization": 5,
+      "file": "PERM5_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 6.1,
+      "maximum": 7000.0,
+      "mean": 913.402242063492
+    },
+    {
+      "realization": 6,
+      "file": "PERM6_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 1.6,
+      "maximum": 7000.0,
+      "mean": 842.148201058201
+    },
+    {
+      "realization": 7,
+      "file": "PERM7_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.4,
+      "maximum": 7000.0,
+      "mean": 814.6667989417989
+    },
+    {
+      "realization": 8,
+      "file": "PERM8_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 6.6,
+      "maximum": 7000.0,
+      "mean": 834.3808492063492
+    },
+    {
+      "realization": 9,
+      "file": "PERM9_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 2.5,
+      "maximum": 7000.0,
+      "mean": 781.4827764550264
+    },
+    {
+      "realization": 10,
+      "file": "PERM10_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 3.1,
+      "maximum": 7000.0,
+      "mean": 808.8982473544974
+    },
+    {
+      "realization": 11,
+      "file": "PERM11_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.9,
+      "maximum": 7000.0,
+      "mean": 885.5049947089947
+    },
+    {
+      "realization": 12,
+      "file": "PERM12_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 7.3,
+      "maximum": 7000.0,
+      "mean": 847.4164523809524
+    },
+    {
+      "realization": 13,
+      "file": "PERM13_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.1,
+      "maximum": 7000.0,
+      "mean": 779.2303650793651
+    },
+    {
+      "realization": 14,
+      "file": "PERM14_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.0,
+      "maximum": 7000.0,
+      "mean": 777.4010277777778
+    },
+    {
+      "realization": 15,
+      "file": "PERM15_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 4.8,
+      "maximum": 7000.0,
+      "mean": 883.6556984126984
+    },
+    {
+      "realization": 16,
+      "file": "PERM16_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.8,
+      "maximum": 7000.0,
+      "mean": 882.2940608465608
+    },
+    {
+      "realization": 17,
+      "file": "PERM17_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.9,
+      "maximum": 7000.0,
+      "mean": 797.7581322751322
+    },
+    {
+      "realization": 18,
+      "file": "PERM18_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 3.1,
+      "maximum": 7000.0,
+      "mean": 808.2565753968254
+    },
+    {
+      "realization": 19,
+      "file": "PERM19_ECL.INC",
+      "bytes": 845523,
+      "numeric_value_count": 75600,
+      "minimum": 4.9,
+      "maximum": 7000.0,
+      "mean": 796.4432023809524
+    },
+    {
+      "realization": 20,
+      "file": "PERM20_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 4.1,
+      "maximum": 7000.0,
+      "mean": 783.5024907407407
+    },
+    {
+      "realization": 21,
+      "file": "PERM21_ECL.INC",
+      "bytes": 845523,
+      "numeric_value_count": 75600,
+      "minimum": 4.7,
+      "maximum": 7000.0,
+      "mean": 806.9937936507936
+    },
+    {
+      "realization": 22,
+      "file": "PERM22_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 7.2,
+      "maximum": 7000.0,
+      "mean": 808.6912354497355
+    },
+    {
+      "realization": 23,
+      "file": "PERM23_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 4.6,
+      "maximum": 7000.0,
+      "mean": 761.4963108465608
+    },
+    {
+      "realization": 24,
+      "file": "PERM24_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 6.2,
+      "maximum": 7000.0,
+      "mean": 814.6127645502645
+    },
+    {
+      "realization": 25,
+      "file": "PERM25_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 6.5,
+      "maximum": 7000.0,
+      "mean": 846.979384920635
+    },
+    {
+      "realization": 26,
+      "file": "PERM26_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 7.7,
+      "maximum": 7000.0,
+      "mean": 829.5507632275132
+    },
+    {
+      "realization": 27,
+      "file": "PERM27_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 7.4,
+      "maximum": 7000.0,
+      "mean": 801.6839642857143
+    },
+    {
+      "realization": 28,
+      "file": "PERM28_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 6.9,
+      "maximum": 7000.0,
+      "mean": 736.2389867724868
+    },
+    {
+      "realization": 29,
+      "file": "PERM29_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 4.7,
+      "maximum": 7000.0,
+      "mean": 763.3698108465609
+    },
+    {
+      "realization": 30,
+      "file": "PERM30_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 4.1,
+      "maximum": 7000.0,
+      "mean": 804.7337248677248
+    },
+    {
+      "realization": 31,
+      "file": "PERM31_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 7.5,
+      "maximum": 7000.0,
+      "mean": 809.1012685185185
+    },
+    {
+      "realization": 32,
+      "file": "PERM32_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 3.0,
+      "maximum": 7000.0,
+      "mean": 784.9483677248677
+    },
+    {
+      "realization": 33,
+      "file": "PERM33_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 4.4,
+      "maximum": 7000.0,
+      "mean": 767.970291005291
+    },
+    {
+      "realization": 34,
+      "file": "PERM34_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 6.3,
+      "maximum": 7000.0,
+      "mean": 831.3952208994709
+    },
+    {
+      "realization": 35,
+      "file": "PERM35_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 4.9,
+      "maximum": 7000.0,
+      "mean": 852.2821137566137
+    },
+    {
+      "realization": 36,
+      "file": "PERM36_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 6.6,
+      "maximum": 7000.0,
+      "mean": 770.2729153439153
+    },
+    {
+      "realization": 37,
+      "file": "PERM37_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 3.9,
+      "maximum": 7000.0,
+      "mean": 802.4695661375662
+    },
+    {
+      "realization": 38,
+      "file": "PERM38_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 3.3,
+      "maximum": 7000.0,
+      "mean": 776.2126203703704
+    },
+    {
+      "realization": 39,
+      "file": "PERM39_ECL.INC",
+      "bytes": 845523,
+      "numeric_value_count": 75600,
+      "minimum": 5.6,
+      "maximum": 7000.0,
+      "mean": 753.9973915343915
+    },
+    {
+      "realization": 40,
+      "file": "PERM40_ECL.INC",
+      "bytes": 845523,
+      "numeric_value_count": 75600,
+      "minimum": 6.0,
+      "maximum": 7000.0,
+      "mean": 799.5126005291005
+    },
+    {
+      "realization": 41,
+      "file": "PERM41_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 4.2,
+      "maximum": 7000.0,
+      "mean": 840.3630396825397
+    },
+    {
+      "realization": 42,
+      "file": "PERM42_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.3,
+      "maximum": 7000.0,
+      "mean": 826.0752619047619
+    },
+    {
+      "realization": 43,
+      "file": "PERM43_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 6.0,
+      "maximum": 7000.0,
+      "mean": 845.836328042328
+    },
+    {
+      "realization": 44,
+      "file": "PERM44_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.6,
+      "maximum": 7000.0,
+      "mean": 866.8707354497354
+    },
+    {
+      "realization": 45,
+      "file": "PERM45_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.3,
+      "maximum": 7000.0,
+      "mean": 854.499585978836
+    },
+    {
+      "realization": 46,
+      "file": "PERM46_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 0.9,
+      "maximum": 7000.0,
+      "mean": 799.6972843915345
+    },
+    {
+      "realization": 47,
+      "file": "PERM47_ECL.INC",
+      "bytes": 845523,
+      "numeric_value_count": 75600,
+      "minimum": 4.6,
+      "maximum": 7000.0,
+      "mean": 782.4122777777778
+    },
+    {
+      "realization": 48,
+      "file": "PERM48_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.7,
+      "maximum": 7000.0,
+      "mean": 815.1128174603175
+    },
+    {
+      "realization": 49,
+      "file": "PERM49_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 3.3,
+      "maximum": 7000.0,
+      "mean": 795.9904484126984
+    },
+    {
+      "realization": 50,
+      "file": "PERM50_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 4.5,
+      "maximum": 7000.0,
+      "mean": 792.1498928571428
+    },
+    {
+      "realization": 51,
+      "file": "PERM51_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 6.8,
+      "maximum": 7000.0,
+      "mean": 827.092541005291
+    },
+    {
+      "realization": 52,
+      "file": "PERM52_ECL.INC",
+      "bytes": 845521,
+      "numeric_value_count": 75600,
+      "minimum": 5.7,
+      "maximum": 7000.0,
+      "mean": 843.5221626984127
+    },
+    {
+      "realization": 53,
+      "file": "PERM53_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 2.7,
+      "maximum": 7000.0,
+      "mean": 782.6150026455027
+    },
+    {
+      "realization": 54,
+      "file": "PERM54_ECL.INC",
+      "bytes": 281926,
+      "numeric_value_count": 25207,
+      "minimum": 0.1,
+      "maximum": 7000.0,
+      "mean": 1090.3797675248939
+    },
+    {
+      "realization": 55,
+      "file": "PERM55_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 4.0,
+      "maximum": 7000.0,
+      "mean": 790.0738743386244
+    },
+    {
+      "realization": 56,
+      "file": "PERM56_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.1,
+      "maximum": 7000.0,
+      "mean": 768.0052738095238
+    },
+    {
+      "realization": 57,
+      "file": "PERM57_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 4.6,
+      "maximum": 7000.0,
+      "mean": 728.4608095238095
+    },
+    {
+      "realization": 58,
+      "file": "PERM58_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 2.3,
+      "maximum": 7000.0,
+      "mean": 730.5320753968253
+    },
+    {
+      "realization": 59,
+      "file": "PERM59_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 3.8,
+      "maximum": 7000.0,
+      "mean": 751.3527791005291
+    },
+    {
+      "realization": 60,
+      "file": "PERM60_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.0,
+      "maximum": 7000.0,
+      "mean": 741.3906838624339
+    },
+    {
+      "realization": 61,
+      "file": "PERM61_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.7,
+      "maximum": 7000.0,
+      "mean": 789.5377632275132
+    },
+    {
+      "realization": 62,
+      "file": "PERM62_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 1.8,
+      "maximum": 7000.0,
+      "mean": 864.8173888888889
+    },
+    {
+      "realization": 63,
+      "file": "PERM63_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.0,
+      "maximum": 7000.0,
+      "mean": 855.3501071428572
+    },
+    {
+      "realization": 64,
+      "file": "PERM64_ECL.INC",
+      "bytes": 845523,
+      "numeric_value_count": 75600,
+      "minimum": 3.9,
+      "maximum": 7000.0,
+      "mean": 818.8116613756614
+    },
+    {
+      "realization": 65,
+      "file": "PERM65_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 2.4,
+      "maximum": 7000.0,
+      "mean": 830.2623029100529
+    },
+    {
+      "realization": 66,
+      "file": "PERM66_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.7,
+      "maximum": 7000.0,
+      "mean": 857.8653201058202
+    },
+    {
+      "realization": 67,
+      "file": "PERM67_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 6.5,
+      "maximum": 7000.0,
+      "mean": 851.341302910053
+    },
+    {
+      "realization": 68,
+      "file": "PERM68_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 3.8,
+      "maximum": 7000.0,
+      "mean": 820.6868055555556
+    },
+    {
+      "realization": 69,
+      "file": "PERM69_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 1.3,
+      "maximum": 7000.0,
+      "mean": 777.5685582010582
+    },
+    {
+      "realization": 70,
+      "file": "PERM70_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.1,
+      "maximum": 7000.0,
+      "mean": 790.5092817460318
+    },
+    {
+      "realization": 71,
+      "file": "PERM71_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 6.8,
+      "maximum": 7000.0,
+      "mean": 867.8768677248678
+    },
+    {
+      "realization": 72,
+      "file": "PERM72_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.7,
+      "maximum": 7000.0,
+      "mean": 821.3664232804233
+    },
+    {
+      "realization": 73,
+      "file": "PERM73_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 2.8,
+      "maximum": 7000.0,
+      "mean": 715.6382367724868
+    },
+    {
+      "realization": 74,
+      "file": "PERM74_ECL.INC",
+      "bytes": 845527,
+      "numeric_value_count": 75600,
+      "minimum": 4.1,
+      "maximum": 7000.0,
+      "mean": 778.2154854497355
+    },
+    {
+      "realization": 75,
+      "file": "PERM75_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 4.8,
+      "maximum": 7000.0,
+      "mean": 795.05175
+    },
+    {
+      "realization": 76,
+      "file": "PERM76_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 2.0,
+      "maximum": 7000.0,
+      "mean": 768.7087605820105
+    },
+    {
+      "realization": 77,
+      "file": "PERM77_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 4.2,
+      "maximum": 7000.0,
+      "mean": 789.4863161375662
+    },
+    {
+      "realization": 78,
+      "file": "PERM78_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.8,
+      "maximum": 7000.0,
+      "mean": 784.7826375661375
+    },
+    {
+      "realization": 79,
+      "file": "PERM79_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.0,
+      "maximum": 7000.0,
+      "mean": 707.7615158730159
+    },
+    {
+      "realization": 80,
+      "file": "PERM80_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 1.3,
+      "maximum": 7000.0,
+      "mean": 740.2409576719576
+    },
+    {
+      "realization": 81,
+      "file": "PERM81_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 2.7,
+      "maximum": 7000.0,
+      "mean": 810.6941640211639
+    },
+    {
+      "realization": 82,
+      "file": "PERM82_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.5,
+      "maximum": 7000.0,
+      "mean": 828.1802658730159
+    },
+    {
+      "realization": 83,
+      "file": "PERM83_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 4.8,
+      "maximum": 7000.0,
+      "mean": 816.6066137566138
+    },
+    {
+      "realization": 84,
+      "file": "PERM84_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 6.4,
+      "maximum": 7000.0,
+      "mean": 814.1091574074073
+    },
+    {
+      "realization": 85,
+      "file": "PERM85_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 7.2,
+      "maximum": 7000.0,
+      "mean": 785.4335833333333
+    },
+    {
+      "realization": 86,
+      "file": "PERM86_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.0,
+      "maximum": 7000.0,
+      "mean": 759.383541005291
+    },
+    {
+      "realization": 87,
+      "file": "PERM87_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 3.9,
+      "maximum": 7000.0,
+      "mean": 785.228962962963
+    },
+    {
+      "realization": 88,
+      "file": "PERM88_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 1.3,
+      "maximum": 7000.0,
+      "mean": 777.3049695767196
+    },
+    {
+      "realization": 89,
+      "file": "PERM89_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 7.1,
+      "maximum": 7000.0,
+      "mean": 764.1848756613757
+    },
+    {
+      "realization": 90,
+      "file": "PERM90_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 2.9,
+      "maximum": 7000.0,
+      "mean": 822.0569907407407
+    },
+    {
+      "realization": 91,
+      "file": "PERM91_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 4.8,
+      "maximum": 7000.0,
+      "mean": 793.5045396825398
+    },
+    {
+      "realization": 92,
+      "file": "PERM92_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 3.1,
+      "maximum": 7000.0,
+      "mean": 705.8229841269841
+    },
+    {
+      "realization": 93,
+      "file": "PERM93_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 2.1,
+      "maximum": 7000.0,
+      "mean": 700.1260965608466
+    },
+    {
+      "realization": 94,
+      "file": "PERM94_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 5.4,
+      "maximum": 7000.0,
+      "mean": 725.1367883597884
+    },
+    {
+      "realization": 95,
+      "file": "PERM95_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 3.6,
+      "maximum": 7000.0,
+      "mean": 715.9816044973545
+    },
+    {
+      "realization": 96,
+      "file": "PERM96_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 6.7,
+      "maximum": 7000.0,
+      "mean": 848.4320634920635
+    },
+    {
+      "realization": 97,
+      "file": "PERM97_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 4.2,
+      "maximum": 7000.0,
+      "mean": 877.5880608465608
+    },
+    {
+      "realization": 98,
+      "file": "PERM98_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 7.6,
+      "maximum": 7000.0,
+      "mean": 806.5760714285715
+    },
+    {
+      "realization": 99,
+      "file": "PERM99_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 3.4,
+      "maximum": 7000.0,
+      "mean": 757.447052910053
+    },
+    {
+      "realization": 100,
+      "file": "PERM100_ECL.INC",
+      "bytes": 845525,
+      "numeric_value_count": 75600,
+      "minimum": 0.2,
+      "maximum": 7000.0,
+      "mean": 760.9166455026455
+    }
+  ],
+  "schedule": {
+    "tstep_count": 120,
+    "total_days": 3600.0,
+    "unique_tstep_values": [
+      30.0
+    ],
+    "injector_count_in_schedule": 8,
+    "injector_rates": {
+      "INJECT1": 79.5,
+      "INJECT2": 79.5,
+      "INJECT3": 79.5,
+      "INJECT4": 79.5,
+      "INJECT5": 79.5,
+      "INJECT6": 79.5,
+      "INJECT7": 79.5,
+      "INJECT8": 79.5
+    }
+  },
+  "file_count": 133,
+  "files": [
+    {
+      "path": "AD-GPRS/Egg_Model/GPRS_Egg_Model.txt",
+      "bytes": 2761
+    },
+    {
+      "path": "AD-GPRS/Egg_Model/VANESSEN_ORI_RMF_2.sim.CFL.txt",
+      "bytes": 87420432
+    },
+    {
+      "path": "AD-GPRS/Egg_Model/VANESSEN_ORI_RMF_2.sim.rates.txt",
+      "bytes": 61880
+    },
+    {
+      "path": "AD-GPRS/VanEssenData/ActiveBlocksForJansenModel.in",
+      "bytes": 51668
+    },
+    {
+      "path": "AD-GPRS/VanEssenData/permXVanEssen.in",
+      "bytes": 160953
+    },
+    {
+      "path": "AD-GPRS/VanEssenData/permYVanEssen.in",
+      "bytes": 160953
+    },
+    {
+      "path": "AD-GPRS/VanEssenData/permZVanEssen.in",
+      "bytes": 135758
+    },
+    {
+      "path": "AD-GPRS/VanEssenData/well_conns.in",
+      "bytes": 391
+    },
+    {
+      "path": "Eclipse/ACTIVE.INC",
+      "bytes": 51675
+    },
+    {
+      "path": "Eclipse/COMPDAT.INC",
+      "bytes": 846
+    },
+    {
+      "path": "Eclipse/Egg_Model_ECL.DATA",
+      "bytes": 4571
+    },
+    {
+      "path": "Eclipse/SCHEDULE_NEW.INC",
+      "bytes": 2316
+    },
+    {
+      "path": "Eclipse/mDARCY.INC",
+      "bytes": 189358
+    },
+    {
+      "path": "MRST/ACTIVE.INC",
+      "bytes": 51675
+    },
+    {
+      "path": "MRST/COMPDAT.INC",
+      "bytes": 846
+    },
+    {
+      "path": "MRST/Egg_Model_ECL.DATA",
+      "bytes": 4571
+    },
+    {
+      "path": "MRST/MRST_FIM.mat",
+      "bytes": 198919
+    },
+    {
+      "path": "MRST/Reading_deck_Egg_model_Fully_Implicit.m",
+      "bytes": 2756
+    },
+    {
+      "path": "MRST/Reading_deck_Egg_model_Sequential.m",
+      "bytes": 6304
+    },
+    {
+      "path": "MRST/SCHEDULE_NEW.INC",
+      "bytes": 2382
+    },
+    {
+      "path": "MRST/StoreProduction.m",
+      "bytes": 1676
+    },
+    {
+      "path": "MRST/mDARCY.INC",
+      "bytes": 189358
+    },
+    {
+      "path": "MoReS/Egg_Model.inp",
+      "bytes": 1739
+    },
+    {
+      "path": "MoReS/Fluid_Data.inc",
+      "bytes": 3064
+    },
+    {
+      "path": "MoReS/Geo_Data.inc",
+      "bytes": 893
+    },
+    {
+      "path": "MoReS/Initial_Data.inc",
+      "bytes": 542
+    },
+    {
+      "path": "MoReS/Perm.inc",
+      "bytes": 535358
+    },
+    {
+      "path": "MoReS/Phi.inc",
+      "bytes": 178362
+    },
+    {
+      "path": "MoReS/QC_Array2.inc",
+      "bytes": 86314
+    },
+    {
+      "path": "MoReS/Rel_Perm.inc",
+      "bytes": 1837
+    },
+    {
+      "path": "MoReS/SATplot.inc",
+      "bytes": 102
+    },
+    {
+      "path": "MoReS/Void_Blocks.inc",
+      "bytes": 77595
+    },
+    {
+      "path": "MoReS/Well_Data.inc",
+      "bytes": 3541
+    },
+    {
+      "path": "Permeability_Realizations/PERM100_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM10_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM11_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM12_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM13_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM14_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM15_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM16_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM17_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM18_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM19_ECL.INC",
+      "bytes": 845523
+    },
+    {
+      "path": "Permeability_Realizations/PERM1_ECL.INC",
+      "bytes": 845524
+    },
+    {
+      "path": "Permeability_Realizations/PERM20_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM21_ECL.INC",
+      "bytes": 845523
+    },
+    {
+      "path": "Permeability_Realizations/PERM22_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM23_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM24_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM25_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM26_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM27_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM28_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM29_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM2_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM30_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM31_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM32_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM33_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM34_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM35_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM36_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM37_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM38_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM39_ECL.INC",
+      "bytes": 845523
+    },
+    {
+      "path": "Permeability_Realizations/PERM3_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM40_ECL.INC",
+      "bytes": 845523
+    },
+    {
+      "path": "Permeability_Realizations/PERM41_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM42_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM43_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM44_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM45_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM46_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM47_ECL.INC",
+      "bytes": 845523
+    },
+    {
+      "path": "Permeability_Realizations/PERM48_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM49_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM4_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM50_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM51_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM52_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM53_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM54_ECL.INC",
+      "bytes": 281926
+    },
+    {
+      "path": "Permeability_Realizations/PERM55_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM56_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM57_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM58_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM59_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM5_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM60_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM61_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM62_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM63_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM64_ECL.INC",
+      "bytes": 845523
+    },
+    {
+      "path": "Permeability_Realizations/PERM65_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM66_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM67_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM68_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM69_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM6_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM70_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM71_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM72_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM73_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM74_ECL.INC",
+      "bytes": 845527
+    },
+    {
+      "path": "Permeability_Realizations/PERM75_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM76_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM77_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM78_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM79_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM7_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM80_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM81_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM82_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM83_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM84_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM85_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM86_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM87_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM88_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM89_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM8_ECL.INC",
+      "bytes": 845521
+    },
+    {
+      "path": "Permeability_Realizations/PERM90_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM91_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM92_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM93_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM94_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM95_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM96_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM97_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM98_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM99_ECL.INC",
+      "bytes": 845525
+    },
+    {
+      "path": "Permeability_Realizations/PERM9_ECL.INC",
+      "bytes": 845521
+    }
+  ]
+}
