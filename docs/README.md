@@ -21,6 +21,9 @@ The repository is organized so that a fact should have one canonical home. Other
 | Why was a consequential decision made? | `docs/decisions/` |
 | How does the complete system fit together? | `docs/system-design/` |
 | What reservoir knowledge does the project rely on? | `docs/reservoir-knowledge/` |
+| What does an important datum actually mean? | `docs/data-and-logging/DATA_DICTIONARY.md` |
+| How should a result be interpreted? | `docs/validation/INTERPRETATION_FRAMEWORK.md` |
+| Why does a threshold or constraint exist? | `docs/validation/CONSTRAINT_AND_THRESHOLD_REGISTER.md` |
 | What counts as valid/correct behaviour? | `docs/validation/` |
 | How is the reservoir simulation handled? | `docs/simulation/` |
 | How does the AI controller work? | `docs/ai-controller/` |

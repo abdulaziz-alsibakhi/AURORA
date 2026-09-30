@@ -1,8 +1,37 @@
 \section{Background and Domain Context}
 \label{sec:background}
 
-\textit{Working section.}
+AURORA studies autonomous closed-loop control in a reservoir waterflood setting.
+The reservoir domain introduces dynamic interactions among injection, production,
+pressure, fluid movement, geological heterogeneity, and well controls. These
+quantities must be interpreted as physical or simulated quantities before they are
+treated as software features, optimization variables, constraints, or evaluation
+metrics.
 
-This section will provide only the reservoir, waterflooding, control, reduced-order
-modelling, reinforcement-learning, and optimization background required to understand
-the proposed engineering system. Domain-sensitive statements will be cited.
+The project uses the Egg Model as a controlled synthetic reservoir benchmark.
+The canonical Egg dataset describes an ensemble of 101 relatively small
+three-dimensional realizations of a channelized reservoir produced under
+waterflooding with eight water injectors and four producers. The ensemble structure
+is useful for controlled experiments involving geological variation, but the Egg
+Model is not a real field.
+
+OPM Flow is used as the intended higher-fidelity numerical reservoir-simulation
+environment. OPM describes Flow as a fully implicit black-oil simulator supporting
+industry-standard reservoir models and well pressure/rate constraints. In AURORA,
+OPM output is therefore treated as a numerical reference for the configured
+experiment rather than as physical ground truth.
+
+A separate reduced-order reservoir model is intended to provide computationally
+cheaper prediction for control and safety calculations. The discrepancy between this
+reduced-order representation and the higher-fidelity numerical reference is itself a
+central object of study.
+
+AURORA also retains production data from Equinor's Volve release as a real-field
+grounding resource. Volve and Egg/OPM have deliberately different roles: real-field
+data can inform interpretation and expose data-quality realities, while controlled
+Egg/OPM experiments provide reproducible interventions and reference responses.
+
+The project's domain documentation therefore distinguishes physical meaning,
+simulator semantics, model predictions, machine-learning representations, derived
+metrics, and safety-decision quantities rather than treating similarly named signals
+as interchangeable.

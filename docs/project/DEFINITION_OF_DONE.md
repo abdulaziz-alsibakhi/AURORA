@@ -1,5 +1,24 @@
 # Definition of Done
 
+
+## Data interpretation requirement
+
+A task that materially depends on interpreting data is not complete merely because the
+pipeline runs or a metric was calculated.
+
+Where applicable, completion requires:
+
+- canonical variable semantics to be defined or linked;
+- provenance to be reconstructable;
+- data-quality checks to be defined;
+- comparator/baseline to be explicit;
+- applicable constraints/thresholds to have a documented class and source;
+- uncertainty/significance to be interpreted appropriately; and
+- the claim boundary to be stated.
+
+Use `../validation/DATA_INTERPRETATION_CONTRACT.md` for substantive data-heavy work.
+
+
 ## Purpose
 
 AURORA does not define completion as "someone wrote code."

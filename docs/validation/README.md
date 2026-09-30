@@ -1,7 +1,45 @@
-# Validation
+# Validation and Interpretation
 
-AURORA needs an explicit basis for deciding whether experimental behavior is acceptable, invalid, unsafe within the encoded model, or outside project scope.
+## Purpose
 
-The project distinguishes **software correctness**, **validity within the defined simulation experiment**, and **real-field validity**. The first two can be investigated directly by the capstone. The third must not be implied without independent evidence.
+This directory defines how AURORA decides whether an artifact, datum, behaviour, or
+result is:
 
-The validation specification should eventually define the experimental scope, non-claims, important quantities and units, domain rules, valid operating region, automated validators, severity of violations, evidence sources, and assumptions requiring expert review.
+- structurally valid;
+- experimentally valid;
+- domain-plausible;
+- meaningful;
+- unusual;
+- concerning;
+- constraint-violating;
+- unsupported; or
+- outside the project's claim boundary.
+
+## Canonical documents
+
+| Question | Document |
+|---|---|
+| What are AURORA's validation levels and rules? | `VALIDATION_SPECIFICATION.md` |
+| How should a number/result be interpreted? | `INTERPRETATION_FRAMEWORK.md` |
+| What kind of threshold/constraint is this and why? | `CONSTRAINT_AND_THRESHOLD_REGISTER.md` |
+| How do I document interpretation for a task? | `DATA_INTERPRETATION_CONTRACT.md` |
+| What does the variable itself mean? | `../data-and-logging/DATA_DICTIONARY.md` |
+| What reservoir knowledge supports the interpretation? | `../reservoir-knowledge/` |
+
+## Core rule
+
+A result is not understood merely because it has been computed.
+
+A metric becomes evidence only when its semantics, comparator, expected behaviour,
+uncertainty, significance, provenance, and claim boundary are sufficiently understood.
+
+## Validation is layered
+
+AURORA distinguishes:
+
+1. implementation correctness;
+2. experimental correctness;
+3. domain plausibility/grounding; and
+4. real-field validity.
+
+Passing one layer does not imply passing the next.

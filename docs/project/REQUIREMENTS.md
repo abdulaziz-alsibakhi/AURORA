@@ -170,6 +170,15 @@ The project has not frozen whether a hardware component belongs in the final sco
 
 No core requirement currently depends on hardware.
 
+
+### AUR-REQ-021 — Data semantics and interpretation
+
+**Status:** Active
+
+Important datasets, variables, model outputs, derived quantities, thresholds, and
+metrics used to support AURORA decisions or claims shall have documented semantics,
+provenance, context-appropriate interpretation, validation basis, and claim boundaries.
+
 ## Technical requirements still to be refined
 
 ROADMAP Phases 1–3 must refine, among other things:

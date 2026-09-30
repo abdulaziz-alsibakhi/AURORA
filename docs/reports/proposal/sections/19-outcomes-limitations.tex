@@ -1,8 +1,20 @@
 \section{Expected Outcomes and Limitations}
 \label{sec:outcomes}
 
-\textit{Working section.}
+The expected outcome is a reproducible Software/Computer Engineering prototype for
+closed-loop reservoir-control experiments that integrates a reservoir simulator, a
+learned sequential controller, a reduced-order predictive model, an explicit safety
+layer, telemetry, validation, and a human-interpretable demonstration.
 
-This section will state the expected engineering outputs, the kinds of conclusions
-the planned experiments may support, and the claims the project will explicitly
-avoid without sufficient evidence.
+The principal scientific question concerns behaviour under model mismatch: whether a
+safety mechanism using a simplified predictive model can account for measured
+discrepancy relative to a higher-fidelity numerical reference and improve realized
+constraint behaviour under appropriately controlled evaluation.
+
+The project does not claim deployment readiness, unconditional physical safety,
+replacement of reservoir-engineering judgment, or validation on an operating
+reservoir. OPM Flow is treated as a higher-fidelity numerical reference rather than
+ground truth. Volve provides real-field grounding but is not interchangeable with the
+Egg simulation environment. Exact claims will be restricted to the experimental
+population, models, configurations, metrics, and uncertainty supported by the final
+evidence.

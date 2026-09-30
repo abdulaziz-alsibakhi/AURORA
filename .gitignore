@@ -46,3 +46,14 @@ models/
 # Experiment results are ignored except documentation
 experiments/results/*
 !experiments/results/README.md
+
+# LaTeX generated artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.toc
+*.synctex.gz

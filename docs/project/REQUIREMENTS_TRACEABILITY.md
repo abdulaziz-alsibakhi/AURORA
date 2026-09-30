@@ -48,6 +48,7 @@ This file owns project-level traceability structure. GitHub owns live issue stat
 | AUR-REQ-018 Provenance | 1, 4, 9 | source manifests/licences/experiment lineage | Proposal, final |
 | AUR-REQ-019 Robustness | 8, 10 | fault scenarios + regression/evaluation | Demo, final |
 | AUR-REQ-020 Hardware scope | unresolved | supervisor/team decision record | TBD |
+| AUR-REQ-021 Data semantics/interpretation | 1, 2, 3, 9, 10 | data dictionary + interpretation contracts + validation evidence | Proposal, demo, final |
 
 ## Known supervisor concern mapping
 

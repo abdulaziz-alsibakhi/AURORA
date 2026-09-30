@@ -1,8 +1,26 @@
 \section{Verification and Experimental Methodology}
 \label{sec:experiments}
 
-\textit{Working section.}
+AURORA's experimental methodology is designed around traceability from configuration
+to claim. Important runs will identify the reservoir realization, simulator
+environment, controller and safety configurations, random seeds where applicable,
+control steps, observations, proposed actions, applied actions, interventions,
+failures, and summary metrics.
 
-This section will define the intended verification levels, baselines, controlled
-comparisons, metrics, held-out evaluation strategy, reproducibility expectations,
-and evidence needed to support or reject project claims.
+Comparisons will define an explicit baseline, changed factor, held-constant factors,
+metric, aggregation method, uncertainty treatment, and scope of conclusion. Failed or
+invalid runs relevant to the evaluation will not be silently discarded; their status
+and exclusion rationale will be retained.
+
+The final evaluation protocol will distinguish development or calibration conditions
+from protected evaluation conditions where scientifically appropriate. Exact
+realization splits, controller observations/actions, objective formulation,
+operational constraints, mismatch-calibration method, and numerical success
+thresholds remain controlled design decisions and are not frozen by the present
+proposal foundation.
+
+AURORA further distinguishes statistical significance, engineering significance,
+physical significance, and safety significance. A statistically unusual result is not
+automatically physically concerning, and a physically concerning numerical result is
+not automatically an encoded safety violation. Each interpretation must follow the
+definitions and evidence established for the corresponding experiment.

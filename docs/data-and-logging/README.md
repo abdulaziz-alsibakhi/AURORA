@@ -1,7 +1,68 @@
-# Data & Logging
+# Data, Logging, and Provenance
 
-This workstream owns experiment telemetry, schemas, provenance, dataset interpretation, and the information needed to reproduce a run.
+This workstream makes AURORA experiments reconstructable.
 
-A run should eventually identify simulator/model version, controller configuration, safety configuration, scenario, seeds where relevant, timestamps/control steps, observations, proposed actions, applied actions, safety interventions, constraint state, failures, summary metrics, and the Git commit/configuration that produced it.
+The canonical semantic registry is [`DATA_DICTIONARY.md`](DATA_DICTIONARY.md).
 
-Volve and EGG/OPM are distinct resources. Their roles must be documented rather than conflated.
+Interpretation and validation rules live under [`../validation/`](../validation/).
+
+## Provenance principle
+
+A run should eventually identify, as applicable:
+
+- simulator/model version;
+- reservoir realization/scenario;
+- controller configuration;
+- safety configuration;
+- experiment configuration;
+- random seeds;
+- timestamps and control/report steps;
+- source observations;
+- transformed observations;
+- proposed actions;
+- safety decisions/interventions;
+- applied actions;
+- relevant constraint state;
+- model predictions;
+- mismatch diagnostics;
+- failures/warnings;
+- summary metrics;
+- input/configuration hashes; and
+- Git commit.
+
+## Distinguish stages
+
+Do not overwrite one semantic stage with another.
+
+For example:
+
+    proposed action
+        != safety-filtered action
+        != simulator-requested action
+        != realized reservoir response
+
+Similarly:
+
+    raw value
+        != normalized value
+        != model prediction
+        != residual
+        != derived constraint quantity
+
+## Data-quality states
+
+Important pipelines should be able to distinguish, where relevant:
+
+- present and valid;
+- missing;
+- stale;
+- malformed;
+- unit-inconsistent;
+- temporally misaligned;
+- out of expected schema;
+- numerically non-finite;
+- simulator-invalid;
+- rejected by validation.
+
+The exact machine-readable telemetry schema is frozen during architecture/integration
+work, not by this foundation document.

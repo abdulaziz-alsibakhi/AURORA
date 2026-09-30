@@ -27,3 +27,10 @@ None / TBD
 
 ## Notes
 TBD
+
+
+## Data interpretation
+
+If this task materially depends on interpreting data, link the applicable
+`docs/validation/DATA_INTERPRETATION_CONTRACT.md` instance or explain why one is not
+needed.

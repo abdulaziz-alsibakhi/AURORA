@@ -1,8 +1,35 @@
 \section{Domain Validation Strategy}
 \label{sec:domain-validation}
 
-\textit{Working section.}
+AURORA separates four levels of correctness.
 
-This section will explain how the team will ground reservoir-sensitive assumptions,
-interpret outputs, use authoritative sources, define validation criteria, and obtain
-bounded qualified review without depending on an expert to approve every run.
+First, implementation correctness asks whether the software satisfies its defined
+interfaces and algorithms. Second, experimental correctness asks whether the intended
+configuration, realization, models, baselines, and evaluation procedure were executed
+reproducibly. Third, domain plausibility asks whether the physical interpretation is
+supported by appropriate simulator documentation, literature, controlled tests,
+cross-variable reasoning, or qualified review. Fourth, real-field validity would
+require evidence beyond the scope established merely by successful simulation or
+analysis of a real-field dataset.
+
+This separation prevents numerical success from being overstated. Agreement with OPM
+supports a claim about the configured numerical reference experiment, not an
+unconditional claim about an operating reservoir. Similarly, the existence of a
+historical range in Volve does not by itself justify using that range as a physical
+safety limit in Egg.
+
+For each important class of data, AURORA records canonical semantics, provenance,
+units, temporal and spatial meaning, expected behaviour, relevant relationships,
+quality failure modes, and claim boundaries. Data-heavy milestones instantiate a
+Data Interpretation Contract that additionally records the task-specific comparator,
+expected result, meaningful-change criterion, abnormal/concerning behaviour,
+uncertainty, thresholds, response logic, and supporting evidence.
+
+The project distinguishes expected ranges, statistical anomaly thresholds, warning
+thresholds, experimental bounds, performance targets, encoded safety constraints,
+and strongly justified physical or operational limits. These categories carry
+different evidentiary burdens and are not treated as synonyms.
+
+A bounded domain-expert review is planned for important assumptions and
+interpretations. Expert review is intended to challenge the project's domain model
+and validation rules rather than to approve every simulation run.

@@ -1,7 +1,28 @@
 \section{Data, Simulation, and External Resources}
 \label{sec:data}
 
-\textit{Working section.}
+AURORA uses external resources with deliberately different roles.
 
-This section will distinguish the roles of EGG, OPM Flow, Volve, generated simulation
-data, and other external resources, including provenance and relevant limitations.
+The Egg Model is the principal synthetic reservoir benchmark. Its canonical dataset
+contains an ensemble of 101 channelized three-dimensional reservoir realizations
+configured for waterflooding with eight injectors and four producers. The benchmark
+supports controlled experimentation across geological realizations.
+
+OPM Flow provides the intended higher-fidelity numerical reference environment.
+Simulation inputs, realization identity, simulator version, control configuration,
+and extracted outputs are treated as experiment provenance. OPM behaviour is not
+described as physical ground truth; conclusions are bounded to the configured
+numerical experiment unless supported by additional evidence.
+
+The project also preserves a production-data workbook from Equinor's Volve field-data
+release. Volve is treated as a separate real-field grounding resource rather than as
+a direct reference trajectory for Egg. Historical ranges observed in Volve are not
+automatically converted into safety constraints for the synthetic benchmark.
+
+AURORA maintains a canonical data dictionary for important variables and requires
+derived quantities to preserve transformation lineage from source data through model
+inputs, predictions, diagnostics, decisions, experiment metrics, and report claims.
+This distinction is particularly important when one physical concept, such as
+pressure, appears as a simulator output, normalized controller feature,
+reduced-order prediction, model residual, uncertainty quantity, or safety-constraint
+expression.
