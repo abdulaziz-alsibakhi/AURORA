@@ -1,5 +1,16 @@
 # AURORA Master Roadmap
 
+### Live execution surface
+
+The roadmap defines the canonical long-range sequence and gates. Current execution is represented in the [AURORA Execution GitHub Project](https://github.com/users/ismaelouadria/projects/5).
+
+The board uses:
+
+`Backlog → To Do → In Progress → Review → Done`
+
+GitHub Issues are created for concrete work packages rather than as a duplicate copy of every roadmap bullet. Milestones group active issues around meaningful integration or deliverable gates. A `blocked` label records an unresolved dependency without creating a separate lifecycle state.
+
+
 ## 1. Purpose
 
 This document is the canonical long-range execution plan for AURORA.

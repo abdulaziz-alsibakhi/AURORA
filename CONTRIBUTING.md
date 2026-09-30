@@ -30,6 +30,32 @@ The normal path is:
 If the issue requires an unresolved technical decision, resolve or explicitly isolate
 that decision before silently encoding an assumption in code.
 
+## Kanban workflow
+
+The live execution board is [AURORA Execution](https://github.com/users/ismaelouadria/projects/5).
+
+AURORA uses the Project's `Workflow` field as the canonical Kanban state:
+
+| State | Meaning |
+| --- | --- |
+| `Backlog` | Legitimate identified work that is not yet committed for immediate execution. |
+| `To Do` | Ready and sufficiently unblocked to be picked up now. |
+| `In Progress` | Someone is actively executing the issue. |
+| `Review` | The implementation/evidence is ready for independent review but is not yet complete. |
+| `Done` | Acceptance criteria, required evidence, review, integration, and documentation obligations are satisfied. |
+
+`blocked` is a label, not a workflow state. A blocked issue remains in the workflow state that truthfully describes its lifecycle position while the label records that it cannot currently advance.
+
+The roadmap and board have different responsibilities:
+
+- `ROADMAP.md` owns the long-range gated execution model.
+- GitHub Projects owns live workflow state.
+- GitHub Issues own concrete work packages.
+- Milestones group related issues around integration/deliverable gates.
+- Pull requests implement and review repository changes.
+
+Do not convert the entire roadmap into speculative issues. Create or promote issues when the work is sufficiently defined and relevant to current or near-term execution.
+
 ## Branches
 
 `main` is the only permanent development branch.

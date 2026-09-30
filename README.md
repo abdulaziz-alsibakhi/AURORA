@@ -223,3 +223,23 @@ The immediate objective is to make the repository sufficiently navigable and tra
 - where evidence belongs
 
 without depending on private knowledge held by one team member.
+
+
+## Live execution
+
+AURORA separates the long-range engineering plan from day-to-day execution:
+
+- [`ROADMAP.md`](ROADMAP.md) is the canonical long-range execution plan.
+- [AURORA Execution](https://github.com/users/ismaelouadria/projects/5) is the live Kanban execution surface.
+- [GitHub Issues](https://github.com/ismaelouadria/AURORA/issues) are concrete work packages with scope, acceptance criteria, and evidence expectations.
+- [GitHub Milestones](https://github.com/ismaelouadria/AURORA/milestones) group issues around meaningful integration and course-deliverable gates.
+- Pull requests and commits preserve implementation/review history.
+- Canonical repository artifacts preserve the resulting engineering knowledge and evidence.
+
+The live workflow is:
+
+`Backlog → To Do → In Progress → Review → Done`
+
+A `blocked` label means an item cannot currently advance because a dependency or decision is unresolved. It does **not** replace the item's workflow state.
+
+See [`CONTRIBUTING.md`](CONTRIBUTING.md) for the operating rules.
