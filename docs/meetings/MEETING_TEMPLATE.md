@@ -1,21 +1,31 @@
-# Meeting — YYYY-MM-DD
+# Supervisor Meeting — YYYY-MM-DD
 
 ## Attendees
-- TBD
 
-## Topics
-- TBD
+-
+
+## Current milestone
+
+**Expected output:**
 
 ## Decisions
-- TBD
 
-## Concerns / feedback
-- TBD
+-
 
-## Action items
-| Action | Owner | Target | Status |
-|---|---|---|---|
-| TBD | TBD | TBD | TBD |
+## Professor feedback
 
-## Open questions
-- TBD
+-
+
+## Blockers / risks
+
+-
+
+## Actions
+
+| Owner | Issue / action | Target |
+|---|---|---|
+| | | |
+
+## Plan changes
+
+- None.

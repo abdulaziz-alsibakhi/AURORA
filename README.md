@@ -225,6 +225,10 @@ The immediate objective is to make the repository sufficiently navigable and tra
 without depending on private knowledge held by one team member.
 
 
+## Start contributing
+
+**New here?** Read the [60-second work guide](docs/project/WORK_MANAGEMENT.md), then open the GitHub Project and go to **My Work**.
+
 ## Live execution
 
 AURORA separates the long-range engineering plan from day-to-day execution:

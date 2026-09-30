@@ -1,5 +1,15 @@
 # Meeting Records
 
-Important meetings should leave a concise durable record containing attendees, topics, decisions, concerns/feedback, action items with owners, and unresolved questions.
+The GitHub Project is the live status system.
 
-Use filenames such as `YYYY-MM-DD-supervisor-meeting.md` or `YYYY-MM-DD-team-meeting.md`. Discord or meeting transcripts may aid recall but should not be the only durable record of important engineering decisions.
+Meeting records preserve only:
+
+- decisions;
+- professor feedback;
+- blockers/risks;
+- actions and owners;
+- changes to plan.
+
+Do not commit raw/private transcripts or duplicate the board.
+
+Use `MEETING_TEMPLATE.md`.

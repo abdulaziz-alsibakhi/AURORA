@@ -180,3 +180,7 @@ belongs in GitHub.
 Completion is evidence-based, not calendar-based.
 
 See `docs/project/DEFINITION_OF_DONE.md`.
+
+## Day-to-day workflow
+
+For task selection, Kanban states, CI/review, evidence, and Definition of Done, use [`docs/project/WORK_MANAGEMENT.md`](docs/project/WORK_MANAGEMENT.md).

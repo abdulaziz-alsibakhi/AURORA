@@ -1,0 +1,69 @@
+name: Quality Gate
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  repository-integrity:
+    name: Repository Integrity
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Required files
+        shell: bash
+        run: |
+          set -euo pipefail
+          for f in             README.md             ROADMAP.md             CONTRIBUTING.md             docs/project/WORK_MANAGEMENT.md             .github/ISSUE_TEMPLATE/task.md             .github/PULL_REQUEST_TEMPLATE.md
+          do
+            test -f "$f" || { echo "::error::Missing $f"; exit 1; }
+          done
+
+      - name: Obvious public-repo leaks
+        shell: bash
+        run: |
+          set -euo pipefail
+          if grep -RInE             --exclude-dir=.git             --exclude=quality-gate.yml             '(/Users/[A-Za-z0-9._-]+/|/home/[A-Za-z0-9._-]+/|BEGIN (RSA |OPENSSH |EC )?PRIVATE KEY|ghp_[A-Za-z0-9]{20,}|github_pat_[A-Za-z0-9_]{20,})'             .; then
+            echo "::error::Possible local path, key, or credential detected."
+            exit 1
+          fi
+
+  python-tests:
+    name: Python Tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Detect Python tests
+        id: tests
+        shell: bash
+        run: |
+          if find . -path './.git' -prune -o -type f             \( -name 'test_*.py' -o -name '*_test.py' \)             -print -quit | grep -q .; then
+            echo "found=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "found=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - uses: actions/setup-python@v5
+        if: steps.tests.outputs.found == 'true'
+        with:
+          python-version: '3.12'
+
+      - name: Run tests
+        if: steps.tests.outputs.found == 'true'
+        run: |
+          python -m pip install pytest
+          python -m pytest -q
+
+      - name: No Python tests yet
+        if: steps.tests.outputs.found != 'true'
+        run: echo "No Python tests detected yet."
